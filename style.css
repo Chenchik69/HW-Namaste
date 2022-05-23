@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  list-style-type: none;
+
+  width: 240px;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+}
+
+.who {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #898f99;
+
+  padding-top: 130px;
+}
+
+.mainName {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  color: #0ec8cb;
+}
+
+.mainDescription {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  width: 528px;
+  padding-bottom: 90px;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #999999;
+}
+
+.cardName {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  color: #1b1b1b;
+}
+
+.cardDescription {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #777777;
+
+  width: 212.54px;
+}
+
+.img {
+  width: 65px;
+  height: 65px;
+}
+
+.anchor {
+  background: url(img/anchor.svg) no-repeat center;
+}
+
+.diamond {
+  background: url(img/diamond.svg) no-repeat center;
+}
+
+.glasses {
+  background: url(img/glasses.svg) no-repeat center;
+}
+
+.monitor {
+  background: url(img/monitor.svg) no-repeat center;
+}
+
+.card:hover .anchor {
+  background: url(img/anchor1.svg) no-repeat center;
+}
+
+.card:hover .diamond {
+  background: url(img/diamond1.svg) no-repeat center;
+}
+
+.card:hover .glasses {
+  background: url(img/glasses1.svg) no-repeat center;
+}
+
+.card:hover .monitor {
+  background: url(img/monitor1.svg) no-repeat center;
+}
+
+.card:hover {
+  background: #0ec8cb;
+  border: 1px solid #0ec8cb;
+}
+
+.card:hover > p {
+  color: white;
+}
